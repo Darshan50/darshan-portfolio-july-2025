@@ -17,7 +17,7 @@ const Hero = () => {
             Passionate about clean code, performance optimization, and solving complex problems.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
+{/*           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
   <a
     href="/Darshan-Resume.pdf"
     download
@@ -31,7 +31,7 @@ const Hero = () => {
   >
     Get In Touch
   </button>
-</div>
+</div> */}
 
 
           <div className="flex justify-center space-x-6">
