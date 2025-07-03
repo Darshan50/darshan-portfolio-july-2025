@@ -5,19 +5,20 @@ const About = () => {
   const skills = [
     {
       category: 'Languages',
-      items: ['Python', 'JavaScript', 'TypeScript', 'Java', 'Go', 'SQL']
+      items: ['Python', 'SQL']
     },
+    
     {
-      category: 'Frameworks',
-      items: ['Node.js', 'Express', 'Django', 'FastAPI', 'Spring Boot']
+      category: 'Frameworks & Libraries',
+      items: [ 'Django', 'FastAPI', 'Flask', 'Numpy', 'Pandas' ]
     },
     {
       category: 'Databases',
-      items: ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL', 'Elasticsearch']
+      items: ['PostgreSQL', 'MongoDB', 'MySQL', 'DynamoDB' ]
     },
     {
       category: 'Tools & Cloud',
-      items: ['Docker', 'AWS', 'Kubernetes', 'Git', 'Linux', 'Nginx']
+      items: ['Docker', 'AWS', 'LangChain', 'Git', 'Linux','IaC']
     }
   ];
 
@@ -25,11 +26,11 @@ const About = () => {
     {
       icon: <Server className="h-8 w-8 text-blue-400" />,
       title: 'API Development',
-      description: 'RESTful and GraphQL APIs with proper authentication and documentation'
+      description: 'RESTful APIs with proper authentication and documentation'
     },
     {
       icon: <Database className="h-8 w-8 text-green-400" />,
-      title: 'Database Design',
+      title: 'Database Management',
       description: 'Efficient database schemas and query optimization for performance'
     },
     {
@@ -54,7 +55,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-lg text-gray-300 mb-6">
-              I'm a passionate backend developer with 5+ years of experience building 
+              I'm a passionate python developer with 1.9+ years of experience building 
               robust, scalable systems that power modern applications. I specialize in 
               creating efficient APIs, designing database architectures, and implementing 
               cloud-native solutions.

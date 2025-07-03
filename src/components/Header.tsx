@@ -26,12 +26,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Code2 className="h-8 w-8 text-blue-400" />
-            <span className="text-xl font-bold text-white">DevPortfolio</span>
+            <span className="text-xl font-bold text-white ">Darshan Thakkar</span>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {['about', 'experience', 'projects', 'contact'].map((section) => (
+            {['about', 'projects', 'contact'].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
@@ -55,7 +55,7 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-slate-800">
             <div className="flex flex-col space-y-4 mt-4">
-              {['about', 'experience', 'projects', 'contact'].map((section) => (
+              {['about', 'projects', 'contact'].map((section) => (
                 <button
                   key={section}
                   onClick={() => scrollToSection(section)}
